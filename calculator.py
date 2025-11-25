@@ -4,6 +4,9 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def multiply(a, b):
+    return a * b
+
 if __name__ == "__main__":
     print("Simple Calculator")
     x = int(input("Enter first number: "))
@@ -11,3 +14,4 @@ if __name__ == "__main__":
 
     print("Addition:", add(x, y))
     print("Subtraction:", subtract(x, y))
+    print("Multiplication:", multiply(x, y))
